@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "News Paywall Bypass",
+  "version": "1.0",
+
+  "description": "News Paywall Bypass",
+  "icons": {
+    "48": "icons/news-48.png"
+  },
+
+  "permissions": ["activeTab", "tabs", "webRequest"],
+
+  "browser_action": {
+    "default_icon": "icons/news-48.png",
+    "default_title": "News Paywall Bypass",
+    "default_popup": "popup/bypass.html"
+  }
+}
